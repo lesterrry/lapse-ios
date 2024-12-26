@@ -6,14 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AE2BE7492D1B983600FD82F1 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2BE7482D1B983600FD82F1 /* OnboardingModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AE2BE6FA2D1B954B00FD82F1 /* Project_26_12_prosmotr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_26_12_prosmotr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2BE7482D1B983600FD82F1 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AE2BE6FC2D1B954B00FD82F1 /* Project_26_12_prosmotr */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Project_26_12_prosmotr;
+			sourceTree = "<group>";
+		};
+		AE2BE7762D1BA2FF00FD82F1 /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AE2BE7B32D1BA94600FD82F1 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +48,9 @@
 			isa = PBXGroup;
 			children = (
 				AE2BE6FC2D1B954B00FD82F1 /* Project_26_12_prosmotr */,
+				AE2BE7132D1B960600FD82F1 /* Onboarding */,
+				AE2BE7B32D1BA94600FD82F1 /* Preview Content */,
+				AE2BE7762D1BA2FF00FD82F1 /* Fonts */,
 				AE2BE6FB2D1B954B00FD82F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +61,14 @@
 				AE2BE6FA2D1B954B00FD82F1 /* Project_26_12_prosmotr.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE2BE7132D1B960600FD82F1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AE2BE7482D1B983600FD82F1 /* OnboardingModel.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +88,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				AE2BE6FC2D1B954B00FD82F1 /* Project_26_12_prosmotr */,
+				AE2BE7762D1BA2FF00FD82F1 /* Fonts */,
+				AE2BE7B32D1BA94600FD82F1 /* Preview Content */,
 			);
 			name = Project_26_12_prosmotr;
 			packageProductDependencies = (
@@ -119,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2BE7492D1B983600FD82F1 /* OnboardingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,14 +280,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project_26_12_prosmotr/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project-26-12-prosmotr-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -279,14 +309,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project_26_12_prosmotr/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project-26-12-prosmotr-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
